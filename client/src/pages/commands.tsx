@@ -116,7 +116,7 @@ const COMMANDS: Record<string, { info: { title: string; emoji: typeof Shield; de
         shortDesc: "Configura o sistema de advertências e punições.",
         fullDesc: "Painel de controle administrativo para o sistema de warns. Configure cargos por nível, limites de punição, ações automáticas (mute/kick/ban) e tempo de expiração.",
         usage: "/warnconfig",
-        permissions: "Administrator",
+        permissions: "Gerenciar Canais",
         icon: Cog,
       },
       {
@@ -161,18 +161,16 @@ const COMMANDS: Record<string, { info: { title: string; emoji: typeof Shield; de
       },
       {
         name: "/permission",
-        shortDesc: "Gerencia permissões de usuário para comandos restritos.",
-        fullDesc: "Comando de alto nível para conceder acesso granular a comandos administrativos sensíveis. Controla quem pode usar painéis como /menu, /silksong e /dannegle.",
+        shortDesc: "Sistema Para Testes Privados Em Novos Sistemas",
         usage: "/permission <add|remove> @usuário",
         permissions: "Bot Owner",
         icon: Key,
       },
       {
         name: "/permissionrole",
-        shortDesc: "Define cargos com acesso a painéis de moderação.",
-        fullDesc: "Configura quais cargos do servidor têm autorização para utilizar os painéis de moderação como /warnpanel. Facilita o gerenciamento de equipes grandes.",
+        shortDesc: "Isso E Para Testes Privados Que Ajuda No Desenvolvimento ",
         usage: "/permissionrole <add|remove> @cargo",
-        permissions: "Administrator",
+        permissions: "Onwer",
         icon: KeyRound,
       },
     ],
@@ -248,7 +246,7 @@ const COMMANDS: Record<string, { info: { title: string; emoji: typeof Shield; de
         shortDesc: "Painel de gerenciamento de conteúdo Silksong.",
         fullDesc: "Interface administrativa completa para gerenciar assets do Hollow Knight Silksong. Adicione, edite e remova Skins, Saves, Mods e Mods de Fusão com embeds personalizados.",
         usage: "/menu",
-        permissions: "Permissão Especial",
+        permissions: "Permissões De Gerenciamento De Mensagens",
         icon: Gamepad2,
       },
       {
@@ -256,7 +254,7 @@ const COMMANDS: Record<string, { info: { title: string; emoji: typeof Shield; de
         shortDesc: "Painel administrativo de Ports (Silksong).",
         fullDesc: "Painel técnico para administração das versões portadas de Silksong. Gerencie ports do Porting Workshop, Weave Wing e Gle Ports com controle total sobre downloads.",
         usage: "/silksong",
-        permissions: "Permissão Especial",
+        permissions: "Permissões De Gerenciamento De Mensagens",
         icon: Smartphone,
       },
       {
@@ -264,7 +262,7 @@ const COMMANDS: Record<string, { info: { title: string; emoji: typeof Shield; de
         shortDesc: "Painel de gerenciamento de Hollow Knight Mobile.",
         fullDesc: "Ferramenta administrativa para controle das versões de Hollow Knight portadas para Android (Dann Cooper) e iOS (GLE). Mantenha os hubs de download atualizados.",
         usage: "/dannegle",
-        permissions: "Permissão Especial",
+        permissions: "Permissões De Gerenciamento De Mensagens",
         icon: Smartphone,
       },
       {
@@ -288,7 +286,7 @@ const COMMANDS: Record<string, { info: { title: string; emoji: typeof Shield; de
         shortDesc: "Exclui um item do banco de dados.",
         fullDesc: "Remove permanentemente um registro do banco de dados pelo título ou ID. Usado para limpar emojis ou itens obsoletos do sistema.",
         usage: "/excluir <identificador>",
-        permissions: "Administrator",
+        permissions: "permissão De Gerenciar mensagens",
         icon: Trash2,
       },
       {
@@ -296,7 +294,7 @@ const COMMANDS: Record<string, { info: { title: string; emoji: typeof Shield; de
         shortDesc: "Lista emojis customizados salvos.",
         fullDesc: "Exibe todos os emojis personalizados armazenados no banco de dados e verifica sua validade atual no Discord. Identifica emojis quebrados ou removidos.",
         usage: "/emojis",
-        permissions: "Administrator",
+        permissions: "permissao De Gerenciar mensagens",
         icon: ListOrdered,
       },
       {
