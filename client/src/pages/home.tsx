@@ -35,6 +35,7 @@ const SENTINEL_IMAGE = "https://iili.io/f2ePUAJ.png";
 const DISCORD_INVITE = "https://discord.com/oauth2/authorize?client_id=1441098694559531179&permissions=2113928959&scope=bot+applications.commands";
 const SUPPORT_SERVER = "https://discord.gg/7jnhjXGz7C";
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
