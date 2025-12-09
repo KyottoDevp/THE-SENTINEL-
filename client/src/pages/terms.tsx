@@ -261,7 +261,7 @@ export default function Terms() {
                   Para dúvidas, sugestões ou solicitações relacionadas a estes termos ou ao bot em geral, entre em contato através de:
                 </p>
                 <ul className="list-disc pl-6 space-y-1">
-                  <li><span className="text-foreground font-medium">Servidor de Suporte:</span> discord.gg/SEU-CONVITE</li>
+                  <li><span className="text-foreground font-medium">Servidor de Suporte:</span> https://discord.gg/k36agHcU8</li>
                   <li><span className="text-foreground font-medium">Desenvolvedor:</span> Hann (Discord)</li>
                 </ul>
               </div>
